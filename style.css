@@ -1,0 +1,10 @@
+@keyframes spin {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+img{
+animation: spin 0.5s infinite  ease;
+}
